@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.header-top{
+    font-family: 'Acme', sans-serif;
+    background-color: white;
+    color: rgb(41,177,221);
+    height: 80px;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+.header-bottom{
+    background-color:rgb(41,177,221) ;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+.text-header{
+    display: inline-block;
+}
+main{
+    background-color:lightgrey;
+    height: calc(100vh - 160px);
+    width: 100%;
+    overflow-y: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin:15px;
+}
+#card{
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 15px;
+    padding: 15px;
+    width: calc(100% - 30px / 5);
+
+}
