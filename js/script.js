@@ -109,8 +109,20 @@ const icons = [
 	},
   ];
 
-  const icone=document.getElementById("cards");
+const containerIcone=document.getElementById("cards");
 
-  icons.forEach(
-      (element)=>
-  );
+icons.forEach(
+    (element)=>{
+        const {name,family,prefix} = element;
+        containerIcone.innerHTML+=`
+        <div class="card">
+            <i class="${family} ${prefix}${name}">
+                <div class="icon-name">  ${name} </div>
+            </i>
+        </div>`
+
+
+
+    }
+
+);

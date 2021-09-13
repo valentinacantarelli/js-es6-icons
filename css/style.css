@@ -35,16 +35,16 @@ main{
     width: 100%;
     overflow-y: auto;
 }
-.cards{
+#cards{
     display: flex;
     flex-wrap: wrap;
     margin:15px;
 }
-#card{
+.card{
     background-color: white;
     box-shadow: 2px 2px 2px grey;
     border-radius: 15px;
     padding: 15px;
-    width: calc(100% - 30px / 5);
+    width: calc(100% - 30px) / 5;
 
 }
