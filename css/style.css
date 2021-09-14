@@ -35,7 +35,7 @@ main{
     width: 100%;
     overflow-y: auto;
 }
-#cards{
+#icons{
     display: flex;
     flex-wrap: wrap;
     margin:15px;
@@ -44,7 +44,9 @@ main{
     background-color: white;
     box-shadow: 2px 2px 2px grey;
     border-radius: 15px;
-    padding: 15px;
-    width: calc(100% - 30px) / 5;
+    padding: 35px;
+    width: calc(100% / 5 - 20px) ;
+    margin: 10px;
+    text-align: center;
 
 }
